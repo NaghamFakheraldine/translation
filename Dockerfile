@@ -15,4 +15,5 @@ COPY . ./
 # Run the web server
 EXPOSE 7860
 ENV PYTHONPATH /translation
-CMD python3 /translation/app.py
+CMD python /translation/app.py 
+
