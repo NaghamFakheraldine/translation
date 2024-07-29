@@ -13,7 +13,7 @@ COPY model/ ./model
 COPY . ./
 
 # Run the web server
-EXPOSE 7860
+EXPOSE 8080
 ENV PYTHONPATH /translation
 CMD python /translation/app.py 
 
